@@ -1,0 +1,56 @@
+body {
+    background: url("naman.jpg") no-repeat;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+.button-89 {
+    --b: 2px;
+    --s: 0.35em;
+    --color: #373b44;
+    margin-bottom: 20px;
+    padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background: conic-gradient(from 90deg at var(--b) var(--b),
+            #fff 90deg,
+            var(--color) 0) var(--_p) var(--_p) / calc(100% - var(--b) - 2 * var(--_p)) calc(100% - var(--b) - 2 * var(--_p));
+    transition: 0.3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #fff;
+    outline-offset: 0.3em;
+    font-size: 16px;
+    border: 1px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: 0.05em;
+}
+
+.button-89:active {
+    background: var(--color);
+    color: #fff;
+}
+
+.button_1 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.navbar {
+    z-index: 1;
+}
+
+
+/* @media ( min-width: 992px )  {
+    .navbar{margin-top: -25px;}
+} */
