@@ -48,9 +48,105 @@ body {
 
 .navbar {
     z-index: 1;
+    
+}
+
+@media screen and (min-width:500px) and (max-width: 767px) {
+    .card {
+        width: 60%;
+        left: 17%;
+
+    }
+}
+
+@media screen and (min-width:1450px) and (max-width: 2560px) {
+
+    .navbar {
+
+        font-size: 30px;
+
+
+    }
+
+    .card {
+
+        width: 80%;
+        left: 17%;
+
+    }
 }
 
 
-/* @media ( min-width: 992px )  {
-    .navbar{margin-top: -25px;}
-} */
+
+@media screen and (min-width:990px) and (max-width: 1024px) {
+    .navbar {
+
+
+        font-size: 14px;
+        
+
+
+    }
+
+
+
+
+}
+
+@media screen and (min-width:1025px) and (max-width: 1095px) {
+    .navbar {
+
+
+        font-size: 14px;
+
+
+    }
+
+
+
+
+}
+
+@media screen and (min-width:990px) and (max-width: 1013px) {
+    .navbar {
+
+
+        font-size: 13.5px;
+
+
+    }
+
+
+
+
+}
+
+
+@media screen and (min-width:1450px) and (max-width: 1644px) {
+    .navbar {
+
+
+        font-size: 23px;
+
+
+    }
+
+
+
+
+}
+
+
+@media screen and (min-width:1013px) and (max-width: 1024px) {
+    .navbar {
+
+
+        font-size: 13px;
+
+
+    }
+
+
+
+
+}

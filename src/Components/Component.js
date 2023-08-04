@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "../App.css"
-import toast, { Toaster } from 'react-hot-toast'
+import  { Toaster } from 'react-hot-toast'
 // import { NavLink } from 'react-router-dom'
 
 const Component = (props) => {
-    const  [Inc,setInc]= useState(0)
+    // const  [Inc,setInc]= useState(0)
     return (
         <>
             <div className="card m-3 "  >
