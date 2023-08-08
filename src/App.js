@@ -1,4 +1,4 @@
-import { Route, Routes} from 'react-router-dom';
+import {Route,Routes} from "react-router-dom"
 import Home from "./Pages/Home.js"
 import TeaCoffee from "./Pages/TeaCoffee.js"
 import Chats from "./Pages/Chats.js"
@@ -11,15 +11,16 @@ import OnMRPItem from "./Pages/OnMRPItem.js"
 import Sweet from "./Pages/Sweet.js"
 import Shake from "./Pages/Shake.js"
 import './App.css';
-import Navbar from './Components/Navbar.js';
+import Navbar1 from './Components/Navbar1.js';
 import AboutUs from './Pages/AboutUs.js';
 
 function App(props) {
 
   return (
     <>
-      <Navbar  />
+      <Navbar1  />
       <Routes>
+        
         <Route path='/' key={props.id}  element={<Home></Home>} />
         <Route path='/chats' element={<Chats></Chats>} />
         <Route path='/tea'  element={<TeaCoffee  ></TeaCoffee>}/>

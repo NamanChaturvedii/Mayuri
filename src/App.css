@@ -93,13 +93,16 @@ body {
 
 }
 
-@media screen and (min-width:1025px) and (max-width: 1095px) {
-    .navbar {
+@media screen and (min-width:1030px) and (max-width: 1317px) {
+    .logo{
 
 
-        font-size: 14px;
+        padding-bottom: 20px;
 
 
+    }
+    .linksn{
+        font-size: 90px;
     }
 
 
@@ -122,11 +125,12 @@ body {
 }
 
 
-@media screen and (min-width:1450px) and (max-width: 1644px) {
+@media screen and (min-width:1449px) and (max-width: 1644px) {
     .navbar {
 
 
         font-size: 23px;
+
 
 
     }
@@ -136,6 +140,19 @@ body {
 
 }
 
+@media screen and (min-width:1449px) and (max-width: 1644px) {
+     .card{
+        left: 30px;
+
+        
+
+
+    }
+
+
+
+
+}
 
 @media screen and (min-width:1013px) and (max-width: 1024px) {
     .navbar {
@@ -145,6 +162,68 @@ body {
 
 
     }
+
+
+
+
+}
+
+@media screen and (min-width:250px) and (max-width: 320px) {
+    .navbar {
+
+
+        width: 104%;
+
+
+    }
+
+
+
+
+
+}
+
+
+@media screen and (min-width:321px) and (max-width: 1150px) {
+    .navbar {
+
+
+        width: 100.7%;
+
+
+    }
+
+
+
+
+
+}
+
+
+@media screen and (min-width:321px) and (max-width: 600px) {
+    .navbar {
+
+
+        width: 104%;
+
+
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width:600px) and (max-width: 1150px) {
+    .navbar {
+
+
+        width: 101%;
+
+
+    }
+
 
 
 

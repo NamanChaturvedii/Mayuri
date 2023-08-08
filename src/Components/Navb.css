@@ -1,0 +1,175 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color:	#525252;
+    color: white;
+
+}
+
+.logo{
+    font-size: 25px;
+    margin-left: 20px;
+    
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+}
+
+.linksn{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 0px 10px;
+    margin: 10px 7px;
+    cursor: pointer;
+
+}
+
+.about{
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+@media  screen and (max-width:780px) {
+    .logo{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: gray;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+    
+.linksn{
+        color: white;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        transition: all 0.5s ease;
+        
+    }
+    
+    .about{
+        border: none;
+    }
+    
+    .mobile-menu-icon{
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        background-color: gray;
+        border: none;
+        outline: none;
+        top: 15px;
+        right:25px;
+}
+}
+
+@media  screen and (min-width:780px) and (max-width:1030px) {
+    .logo{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: gray;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+    
+.linksn{
+        color: white;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+    
+    .about{
+        border: none;
+    }
+    
+    .mobile-menu-icon{
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        background-color: gray;
+        border: none;
+        outline: none;
+        top: 15px;
+        right:25px;
+}
+}
+
+@media screen and (min-width:250px) and (max-width: 320px) {
+    .logo{
+        left: -10px;
+        top: 20px;
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width:320px) and (max-width: 375px) {
+    .logo{
+        left: -10px;
+        top: 20px;
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width:1030px) and (max-width: 1130px) {
+
+
+    .linksn{
+        font-size: 12px;
+    }
+
+
+
+
+
+}
+
+
+
