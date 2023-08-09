@@ -18,7 +18,7 @@ const Navbar1 = () => {
                     <li>Home</li>
                 </NavLink>
                 <NavLink to='/tea' className="linksn">
-                    <li>Tea$Coffee</li>
+                    <li>Tea&Coffee</li>
                 </NavLink>
                 <NavLink to='/chats' className="linksn">
                     <li>Chats</li>
@@ -35,14 +35,14 @@ const Navbar1 = () => {
                 <NavLink to='/mocktail' className="linksn">
                     <li>Mocktail</li>
                 </NavLink>
+                <NavLink to='/shake' className="linksn">
+                    <li>Shakes</li>
+                </NavLink>
                 <NavLink to='/lassi' className="linksn">
                     <li>Lassi</li>
                 </NavLink>
                 <NavLink to='/sweet' className="linksn">
                     <li>Sweets</li>
-                </NavLink>
-                <NavLink to='/shake' className="linksn">
-                    <li>Shakes</li>
                 </NavLink>
                 <NavLink to='/mrp' className="linksn">
                     <li>MRP Item</li>

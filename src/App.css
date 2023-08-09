@@ -1,3 +1,5 @@
+
+
 body {
     background: url("naman.jpg") no-repeat;
     justify-content: center;
@@ -6,6 +8,7 @@ body {
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
+
 }
 
 .button-89 {
@@ -48,10 +51,11 @@ body {
 
 .navbar {
     z-index: 1;
-    
+
+
 }
 
-@media screen and (min-width:500px) and (max-width: 767px) {
+@media screen and (min-width:500px) and (max-width: 768px) {
     .card {
         width: 60%;
         left: 17%;
@@ -83,7 +87,7 @@ body {
 
 
         font-size: 14px;
-        
+
 
 
     }
@@ -94,17 +98,17 @@ body {
 }
 
 @media screen and (min-width:1030px) and (max-width: 1317px) {
-    .logo{
+    .logo {
 
 
         padding-bottom: 20px;
 
 
     }
-    .linksn{
+
+    .linksn {
         font-size: 90px;
     }
-
 
 
 
@@ -141,10 +145,10 @@ body {
 }
 
 @media screen and (min-width:1449px) and (max-width: 1644px) {
-     .card{
+    .card {
         left: 30px;
 
-        
+
 
 
     }
@@ -219,7 +223,38 @@ body {
     .navbar {
 
 
-        width: 101%;
+        width: 102%;
+
+
+    }
+
+
+
+
+
+}
+
+
+@media screen and (width:768px) {
+    .card {
+        width: 60%;
+        left: 17%;
+
+    }
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width:1317px) and (max-width: 1451px) {
+    .logo {
+
+
+        padding-bottom: 20px;
 
 
     }

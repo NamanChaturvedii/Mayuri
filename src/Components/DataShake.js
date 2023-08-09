@@ -1,5 +1,5 @@
 import CC from '../images/Shake/Cold Coffee.jpg'
-import RS from '../images/Shake/Rose Shake.jpg'
+import RS from '../images/Shake/Roseshake.jpg'
 import SS from '../images/Shake/Strawberry Shake.jpg'
 import BCS from '../images/Shake/Black Current Shake.jpg'
 import BS from '../images/Shake/Banana Shake.jpg'
@@ -57,6 +57,6 @@ export default[{
 },{
     id: 10,
     photo: [FPS],
-    name: 'Fruit Puch Shake',
+    name: 'Fruit Punch Shake',
     mrp:'100Rs'
 },]
